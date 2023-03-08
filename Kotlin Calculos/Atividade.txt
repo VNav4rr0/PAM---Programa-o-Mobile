@@ -1,0 +1,40 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    println("1-Calcular a área do triângulo")
+    val alt = 10
+    val bas = 10   
+ 	val res = bas*alt
+    
+   println("Resultado: "+res)
+   println("")
+   println("2-Programa para resovel (X*N)^2")
+   
+   val x = 5
+   val n = 5
+   val res2 = Math.pow(x*n.toDouble(), 2.00)
+   
+   println("Resultado: "+res2)
+   println("")
+   println("3-Calculo da área de um triângulo")
+   
+   val bas2 = 10
+   val alt2 = 10
+   val res3 = (bas2*alt2)/2
+    
+   println("Resultado: "+res3)
+   println()
+   
+   println("4-Calculo de notas")
+   
+   val nota = 5
+   val nota2 = 10
+   val nota3 = 1
+   val nota4 = 4
+   val res4 = (nota+nota2+nota3+nota4)/4
+   
+   println("Resultado: "+res4)  
+   
+}
