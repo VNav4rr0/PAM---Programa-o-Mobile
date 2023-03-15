@@ -1,0 +1,38 @@
+fun main() {
+    println("Estruturas de Decisões")
+    
+    val a = 10
+    val b = 5
+    
+    if (a > b){
+        println("$a é maior que $b")
+    }
+    
+    val x = 0
+    
+    when(x){
+		0,1 -> println("X == 0 ou x == 1")
+        else -> println("x tem outro valor")
+    }
+    
+    println(whenAssing("Olá"))
+    println(whenAssing(3.4))
+    println(whenAssing(1))
+    println(whenAssing(MyClass()))
+}
+fun whenAssing(obj: Any): Any{
+    val resultado = when (obj){
+		1-> "Uma"
+        "Olá"-> 1
+        is Long -> false
+        else -> 42
+    }
+    return resultado
+}class Myclass
+
+fun main(){
+    val lista = listOf(1,2,3,4)
+    for ((indice, valor) in lista.withIndex()){
+        println("Índice $indice valor: $valor")
+    }
+}
