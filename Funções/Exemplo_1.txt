@@ -1,0 +1,21 @@
+/**
+ *Exemplo de um função no KOTILIN.
+ */
+
+
+fun main() {
+    val n1=5
+    val n2=7
+    
+    val res = somar(n1,n2)
+    	imprimir("O resultado da soma $n1 + $n2 = $res ")
+}
+
+//O que a função irá fazer.
+fun somar(n1: Int, n2: Int): Int{
+    return n1+n2
+}
+fun imprimir(texto: String){
+    println(texto)
+}
+//
